@@ -31,4 +31,4 @@ class FlaskTestCase(unittest.TestCase):
         self.assertEqual(response.json['name'], 'ben')
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main() #in terminal : python -m unittest
